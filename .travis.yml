@@ -1,2 +1,2 @@
 after_success:
-    - git subtree push --prefix site/ origin gh-pages
+    - git subtree push --prefix dist/ origin gh-pages
