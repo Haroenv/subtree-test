@@ -12,12 +12,7 @@ git subtree push --prefix dist/ origin gh-pages
 
 ## With travis
 
-Add this to `.travis.yml`
-
-```
-after_success:
-    - git subtree push --prefix dist/ origin gh-pages
-```
+Doesn't seem to work :sad:. If you know why, let me know
 
 # license
 
