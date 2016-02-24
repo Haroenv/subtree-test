@@ -25,8 +25,8 @@ env:
         #
         # User specific env variables
         - secure: fUwRG1KLQ8QcdmsYKPtE4IefnWWvTBCi70oGFg3luCGKgFwiaocIkJOow3aPE3ki9DYNGQUlHdZjYw9DaF2bpu+WHpLe7Txn0PxiL5wQLE9MqNb2BSsDjLYTXSqiedhEs5Co6eLm5a/gbS9r1Qo904/BCqOsOqrgxkQh3tF8XQgAUMjgMuQxOsgbF7Q7vEyREo97XSY/nwsN8kdnQ5U0VieJfW6hhDynkRbxjTTMKHXLNh8Nfvqvbt06UC6LhBYPJA79uLZn58hG/YH22hihvP7G+vUFlXFYzIOBM2qZppH3SBvvdjndELuwnXappRU5ezK/DuOKT6ptfXc4x05q5nC2YbrVm3ZNUfiztS7ECKG9fiEPBbysavx3pvFUCM/ETFrIWapwca/uarmznMCqvtprQ820n4kCfVduXXWuwk+VHb/8vV9gYLWgNpJQl/XdEgMQ/XgEnXpUTz6pnUhw63kSQ7ToVMyHX/t2Me2GwNyhTc7ZsGA7gQl9ixMKk/1kRCk2mlUHcge4E8Y6yIVByj+bSepiATQgmuAooFJ+/G1J45MDAjFcIAsXHZX+x//SSz6TBJaCb2LP/sCZxVqCmMQi083A07bQqfapo2r5hZC4rcqtiUTQPDFTc2fpHLo3+iByYVg2Gx+TfowARFtAGS882elYieAH6rqlVGGD+zQ=
-        - GH_OWNER: haroenv
-        - GH_PROJECT_NAME: subtree-test
+        - GH_OWNER=haroenv
+        - GH_PROJECT_NAME=subtree-test
         # This .travis.yml file instructs travis-ci.org to build your master branch using `yeoman build`
         # and deploy the output to your project's gh-pages branch.
 
