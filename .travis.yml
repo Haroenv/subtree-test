@@ -44,6 +44,6 @@ after_success:
     - git add -f .
     - git config user.email "hello@haroen.me"
     - git config user.name "Haroen Viaene"
-    - git commit -am "adding the yeoman build files to gh-pages [ci skip]"
+    - git commit -am "travis build [ci skip]"
     # Any command that using GH_OAUTH_TOKEN must pipe the output to /dev/null to not expose your oauth token
     - git push https://${GH_OAUTH_TOKEN}@github.com/${GH_OWNER}/${GH_PROJECT_NAME} HEAD:gh-pages > /dev/null 2>&1
