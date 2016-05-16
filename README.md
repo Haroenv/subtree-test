@@ -12,7 +12,7 @@ git subtree push --prefix dist/ origin gh-pages
 
 ## With travis
 
-Doesn't seem to work 🙁. If you know why, let me know
+Using submodules this works.
 
 # license
 
