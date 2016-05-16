@@ -2,4 +2,7 @@
 
 var gulp = require('gulp');
 
-gulp.task('default');
+gulp.task('default',() => {
+  return gulp.src(['**/*.html'])
+    .pipe(gulp.dest('dist'));
+});
